@@ -42,5 +42,21 @@
    
     (base)계정명@계정명:~$ conda create -n my_env python=3.6
     
+   환경을 Activate합니다.
+   
+    (base)계정명@계정명:~$ conda activate my_env
+    
+   다음과 같이 바뀌면 환경이 Activate된 것입니다.
+      
+    (my_env)계정명@계정명:~$ 
+   
+   이제 사용할 딥러닝 환경을 설치하시면 됩니다.
+    
+   Deactivate는 다음과 같이 실행합니다.
+   
+    (my_env)계정명@계정명:~$conda deactivate
+   
+     
+    
     
     
