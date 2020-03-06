@@ -57,8 +57,27 @@
     (my_env)계정명@계정명:~$conda deactivate
    
      
-## 4. 기본적인 Unet++ 설치 및 사용법
-
+## 4. 간단한 딥러닝 네트워크인 Unet++ 설치 및 사용법
+   터미널 창을 열고 github에서 Unet++를 다운받습니다.
+   
+     (my_env)계정명@계정명:~$ mkdir workspace && cd workspace
+     (my_env)계정명@계정명:~/workspace$ git clone https://github.com/tjdalsckd/pytorch-nested-unet-smc.git
+     
+    다운 받은 폴더로 이동합니다.
+    
+     (my_env)계정명@계정명:~/workspace$ cd pytorch-nested-unet-smc
+    
+    예제 이미지파일을 다운받습니다.
+    
+    https://hyu-my.sharepoint.com/:u:/g/personal/wdrac331_hanyang_ac_kr/EQp5AoUGzL1FqtIa1Cw5Y34BACDiVFwGYy2WVSCmxw-tFQ?e=3RYEih
+    
+     (my_env)계정명@계정명:~/workspace$mv /home/계정명/Download/input.tar .
+     (my_env)계정명@계정명:~/workspace$tar xvf input.tar .
+     (my_env)계정명@계정명:~/workspace$python train.py --dataset xray --arch NestedUNet --image-ext png --mask-ext png
+     (my_env)계정명@계정명:~/workspace$python test.py --name xray_NestedUNet_woDS
+     
+     
+     
 
 ## 5. 주의사항
     root 권한을 얻는 행위, 그 외의 root권한과 관련된 작업 또는 서버의 커널과 관련된 파일을 건드리거나, CUDA를 설치하거나 하는 등의 작업은
