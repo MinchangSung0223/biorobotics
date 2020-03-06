@@ -1,6 +1,6 @@
 # 한양대학교 바이오로보틱스 연구실 딥러닝 서버 사용법
 ## 1. 계정 요청
-   원하시는 계정명과 비밀번호, 소속을 tjdalckd@gmail.com으로 보내주세요.
+   원하시는 계정명과 비밀번호, 소속을 tjdalckd@gmail.com으로 보내주시기 바랍니다.
    
     example) 
     ID : bio1
@@ -9,7 +9,7 @@
 ## 2. 계정 로그인
    WINDOWS에서 접속하는 경우 Putty라는 프로그램을 사용하시는 것을 추천합니다.
    Putty프로그램을 실행하고 메일로 알려드린 아이피를 입력하면 접속하실 수 있습니다.
-   다음의 사이트를 참고하셔서 접속하세요.
+   다음의 사이트를 참고하십시오.
    
     https://deidesheim.tistory.com/entry/PuTTY-%EB%A1%9C-SSH-%EC%9B%90%EA%B2%A9%EC%A0%91%EC%86%8D-%ED%95%B4%EB%B3%B4%EA%B8%B0
    Ubuntu 환경에서 접속할 경우 openssh-server를 설치해야 합니다.
